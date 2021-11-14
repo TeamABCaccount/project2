@@ -1,0 +1,38 @@
+html{
+  font-family: 'Signika', Helvetica, sans-serif;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+nav ul li{
+  float: left; 
+  width: 33%;
+}
+
+/*Home Page*/
+
+#home-body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+#home-body h1{
+  font-size: 2.618em;	
+}
+
+#home-body h2{
+  font-size: 1.618em;	
+}
+
+
+
+
