@@ -1,17 +1,22 @@
 html{
-  font-family: 'Signika', Helvetica, sans-serif;
+  
 }
 
 nav ul{
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
-  height: 50px;
 }
 
 nav ul li{
-  float: left; 
-  width: 33%;
+  float: left;
+  position: relative;  
+  left: 1%;
+  width: 32%;
+  background-color: #150578;
+  border: solid #5fb49c thick;
+  height: 40px;
+  font-size: 2.168em;
 }
 
 /*Home Page*/
@@ -23,15 +28,20 @@ nav ul li{
   text-align: center;
   color: white;
   font-size: 18px;
+  font-family: 'Signika', Helvetica, sans-serif;
 }
 
 #home-body h1{
+  clear: both;
   font-size: 2.618em;	
 }
 
 #home-body h2{
   font-size: 1.618em;	
 }
+
+
+
 
 
 
