@@ -1,37 +1,76 @@
-html{
-  font-family: 'Signika', Helvetica, sans-serif;
-}
+/*Navigation*/
 
 nav ul{
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
-  height: 50px;
 }
 
 nav ul li{
-  float: left; 
-  width: 33%;
+  float: left;
+  position: relative;  
+  left: 1%;
+  width: 32%;
+  background-color: #150578;
+  border: solid #5fb49c thick;
+  height: 40px;
+  font-size: 2.168em;
 }
+
+nav ul li a{
+  color: white;
+  text-decoration: none;  
+}
+
+nav ul li:hover{
+  background-color: #36453b;
+  border-color: #5c80bc;
+}
+
+#onpage{
+  background-color: #36453b;
+  border-color: #5c80bc;
+}
+
 
 /*Home Page*/
 
 #home-body{
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   text-align: center;
   color: white;
   font-size: 18px;
+  font-family: 'Signika', Helvetica, sans-serif;
 }
 
 #home-body h1{
-  font-size: 2.618em;	
+  clear: both;
+  font-size: 2.618em;
+  position: relative;
+  top: 20px; 
 }
 
 #home-body h2{
   font-size: 1.618em;	
 }
+
+#home-body div{
+  margin: 10% 10% 10% 0;
+  width: 20%;
+  float: left;
+  line-height: 2;
+
+}
+
+#home-body section{
+  position: relative;
+  left: 22.5%;   
+}
+
+
+
 
 
 
