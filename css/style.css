@@ -78,6 +78,50 @@ nav ul li a:hover{
 
 /*Signup Page*/
 
+#signup-body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Signika', Helvetica, sans-serif;
+}
+
+#signup-body h1{
+  clear: both;
+  font-size: 2.618em;
+  position: relative;
+  top: 20px; 
+
+}
+
+#signup-body h3{
+  font-size: 1.15em;
+  text-align: center;
+  padding: .5em;
+  margin-top: 2em;
+}
+
+#wrapper{
+  color: white;
+  background-color: #5c80bc;
+  border: solid  thick #5fb49c;
+  border-radius: 20%;
+  margin: 10% 15% 20% 15%;
+  
+  
+
+
+  /*margin: 5% 10% 10% 10%;
+  width: 50%;
+  float: left;
+  display: block;
+  line-height: 2;
+  padding: 5%; */
+ 
+}
+
 @media screen and (min-width: 300px) and (max-width: 699px){
 
 
