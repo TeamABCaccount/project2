@@ -62,13 +62,36 @@ nav ul li a:hover{
   width: 20%;
   float: left;
   line-height: 2;
+  color: white;
+  background-color: #5c80bc;
+  border: solid  thick #5fb49c;
+  border-radius: 20%;
+  padding: 2.5%; 
 
 }
 
 #home-body section{
   position: relative;
-  left: 22.5%;   
+  left: 20%;   
 }
+
+@media screen and (min-width: 300px) and (max-width: 699px){
+
+
+  nav ul li{ 
+	float: none;
+	width: 75%;
+	left: 12.5%;
+  }	
+  
+  #home-body div{
+  margin: 20% 10% 10% 0;
+  width: 50%;
+  float: none;
+  line-height: 1.5;
+}
+
+
 
 
 
