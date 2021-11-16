@@ -94,6 +94,27 @@ nav ul li a:hover{
   position: relative;
   top: 20px;
 }
+#about-body h2{
+  font-size: 1.618em;
+}
+
+#about-body div{
+  margin: 10% 10% 10% 0;
+  width: 20%;
+  float: center;
+  line-height: 2;
+  color: white;
+  background-color: #5c80bc;
+  border: solid  thick #5fb49c;
+  border-radius: 20%;
+  padding: 2.5%;
+
+}
+
+#home-body section{
+  position: relative;
+  left: 20%;
+}
 
 
 /*Signup Page*/
