@@ -97,23 +97,9 @@ nav ul li a:hover{
 #about-body h2{
   font-size: 1.618em;
 }
-
-#about-body div{
-  margin: auto;
-  width: 80%;
-  line-height: 2;
-  color: white;
+#about-div {
   background-color: #5c80bc;
-  border: solid  thick #5fb49c;
-  border-radius: 20%;
-  padding: 2.5%;
-
 }
-#about-body section{
-  position: center;
-}
-
-
 /*Signup Page*/
 
 #signup-body{
