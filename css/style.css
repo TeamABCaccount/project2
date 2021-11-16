@@ -99,8 +99,7 @@ nav ul li a:hover{
 }
 
 #about-body div{
-  margin: 10% 10% 10% 0;
-  width: 20%;
+  width: 80%;
   float: center;
   line-height: 2;
   color: white;
@@ -111,8 +110,7 @@ nav ul li a:hover{
 
 }
 #about-body section{
-  position: relative;
-  left: 20%;
+  position: center;
 }
 
 
