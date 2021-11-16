@@ -97,7 +97,7 @@ nav ul li a:hover{
 #about-body h2{
   font-size: 1em;
 }
-#about-div {
+#about-div, #about-section {
   background-color: #5c80bc;
 }
 /*Signup Page*/
