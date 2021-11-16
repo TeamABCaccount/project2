@@ -103,6 +103,11 @@ nav ul li a:hover{
 }
 #aboutparagraphsection{
   margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#bullets{
+  list-style-type: circle;
 }
 
 /*Signup Page*/
