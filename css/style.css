@@ -99,8 +99,8 @@ nav ul li a:hover{
 }
 
 #about-body div{
+  margin: auto;
   width: 80%;
-  float: center;
   line-height: 2;
   color: white;
   background-color: #5c80bc;
