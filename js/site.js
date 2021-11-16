@@ -21,7 +21,7 @@ document.getElementById("terms").addEventListener("click", function(didread) {
         lname=document.getElementById("lname").value;
         email=document.getElementById("email").value;
         dob=document.getElementById("phone").value;
-        
+
 
         if(!fname||!lname||!email||!phone){
             alert("Please fill in all the fields.");
@@ -40,5 +40,3 @@ document.getElementById("terms").addEventListener("click", function(didread) {
           }
 
     }
- 
-  

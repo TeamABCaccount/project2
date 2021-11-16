@@ -8,7 +8,7 @@ nav ul{
 
 nav ul li{
   float: left;
-  position: relative;  
+  position: relative;
   left: 1%;
   width: 32%;
   background-color: #150578;
@@ -20,7 +20,7 @@ nav ul li{
 nav ul li a{
   color: white;
   text-decoration: none;
-  display: block;  
+  display: block;
 }
 
 nav ul li a:hover{
@@ -50,12 +50,12 @@ nav ul li a:hover{
   clear: both;
   font-size: 2.618em;
   position: relative;
-  top: 20px; 
+  top: 20px;
 
 }
 
 #home-body h2{
-  font-size: 1.618em;	
+  font-size: 1.618em;
 }
 
 #home-body div{
@@ -67,15 +67,102 @@ nav ul li a:hover{
   background-color: #5c80bc;
   border: solid  thick #5fb49c;
   border-radius: 20%;
-  padding: 2.5%; 
+  padding: 2.5%;
 
 }
 
 #home-body section{
   position: relative;
-  left: 20%;   
+  left: 20%;
 }
 
+/*About Page*/
+
+#about-body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Signika', Helvetica, sans-serif;
+}
+
+#about-body h1{
+  clear: both;
+  font-size: 2.618em;
+  position: relative;
+  top: 20px;
+}
+#about-body h2{
+  font-size: 1.618em;
+}
+#aboutparagraph{
+  background-color: #5c80bc;
+  font-family: 'Signika', Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+
+}
+#aboutparagraphsection{
+  background-color: #5c80bc;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+
+}
+#bullets{
+  list-style-type: circle;
+  text-align: left;
+  background-color: #5c80bc;
+  color: white;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  background-color: #5c80bc;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  color: white;
+}
+
+.resize{
+  width: auto;
+  height: 300px;
+}
+.slideshow{
+margin-top: 100px;
+margin-left: 450px;
+margin-right: 100px;
+text-align: center;
+}
+.slideshow {width:5px; height:300px;}
+.slideshow img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.slideshow img:nth-child(4){animation-delay:0s;}
+.slideshow img:nth-child(3){animation-delay:5s;}
+.slideshow img:nth-child(2){animation-delay:10s;}
+.slideshow img:nth-child(1){animation-delay:15s;}
+
+.slide{
+  object-fit: contain;
+  width: 500px;
+  height: 300px;
+}
 /*Signup Page*/
 
 #signup-body{
@@ -92,7 +179,7 @@ nav ul li a:hover{
   clear: both;
   font-size: 2.618em;
   position: relative;
-  top: 20px; 
+  top: 20px;
 
 }
 
@@ -115,7 +202,7 @@ nav ul li a:hover{
 }
 
 #signup-body input, label{
-  margin: auto; 
+  margin: auto;
   display: block;
   width: 80%;
 }
@@ -142,12 +229,12 @@ nav ul li a:hover{
 @media screen and (min-width: 300px) and (max-width: 699px){
 
 
-  nav ul li{ 
+  nav ul li{
 	float: none;
 	width: 75%;
 	left: 12.5%;
-  }	
-  
+  }
+
   #home-body div{
   margin: 20% 10% 10% 0;
   width: 50%;
@@ -175,7 +262,7 @@ nav ul li a:hover{
 #subbutton{
   padding: 0.5em;
   width: 15em;
-  display: block;   
+  display: block;
 }
 #wrapper{
   width: 25em;
@@ -183,7 +270,7 @@ nav ul li a:hover{
 }
 
 @media only screen and (min-width : 992px) {
-  
+
   #signup-body input[type='checkbox'] {
       margin-left: 3.1em;
       margin-right: 1em;
@@ -191,11 +278,5 @@ nav ul li a:hover{
   #wrapper{
       width: 40em;
   }
-  
+
 }
-
-
-
-
-
-
