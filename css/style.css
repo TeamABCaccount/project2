@@ -97,9 +97,13 @@ nav ul li a:hover{
 #about-body h2{
   font-size: 1em;
 }
-#about-div, #about-section {
+#aboutparagraph{
   background-color: #5c80bc;
+  font-family: 'Signika', Helvetica, sans-serif;
+
+
 }
+
 /*Signup Page*/
 
 #signup-body{
