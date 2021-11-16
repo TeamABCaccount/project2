@@ -51,6 +51,7 @@ nav ul li a:hover{
   font-size: 2.618em;
   position: relative;
   top: 20px; 
+
 }
 
 #home-body h2{
@@ -75,6 +76,69 @@ nav ul li a:hover{
   left: 20%;   
 }
 
+/*Signup Page*/
+
+#signup-body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Signika', Helvetica, sans-serif;
+}
+
+#signup-body h1{
+  clear: both;
+  font-size: 2.618em;
+  position: relative;
+  top: 20px; 
+
+}
+
+#signup-body h3{
+  font-size: 1.15em;
+  text-align: center;
+  padding: .5em;
+  margin-top: 2em;
+}
+
+#wrapper{
+  color: white;
+  background-color: #5c80bc;
+  border: solid  thick #5fb49c;
+  border-radius: 20%;
+  margin: 10% auto 20% auto;
+  line-height: 2;
+  padding: 3%;
+  width: 50%;
+}
+
+#signup-body input, label{
+  margin: auto; 
+  display: block;
+  width: 80%;
+}
+#signup-body input{
+  padding: .5em;
+}
+#signup-body label{
+  padding: .5em;
+}
+#signup-body input[type='checkbox'] {
+  float: left;
+  width: 20px;
+  margin-left: 8%;
+  margin-top: .9em;
+}
+#signup-body .check{
+  padding-top: .66em;
+}
+#subbutton{
+  margin-top: 1em;
+  width: 65%;
+}
+
 @media screen and (min-width: 300px) and (max-width: 699px){
 
 
@@ -91,8 +155,44 @@ nav ul li a:hover{
   line-height: 1.5;
 }
 
+#signup-body input{
+  padding: 0.5em;
+  width: 75%;
+}
+#signup-body label{
+  width: 7em;
+  text-align: left;
+}
+#signup-body input, label{
+  display: block;
+}
+#signup-body .check{
+  padding-top: 1em;
+}
+#signup-body .checklabel{
+  width: 25em;
+}
+#subbutton{
+  padding: 0.5em;
+  width: 15em;
+  display: block;   
+}
+#wrapper{
+  width: 25em;
+}
+}
 
-
+@media only screen and (min-width : 992px) {
+  
+  #signup-body input[type='checkbox'] {
+      margin-left: 3.1em;
+      margin-right: 1em;
+  }
+  #wrapper{
+      width: 40em;
+  }
+  
+}
 
 
 
