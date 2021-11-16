@@ -95,21 +95,74 @@ nav ul li a:hover{
   top: 20px;
 }
 #about-body h2{
-  font-size: 1em;
+  font-size: 1.618em;
 }
 #aboutparagraph{
   background-color: #5c80bc;
   font-family: 'Signika', Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+
 }
 #aboutparagraphsection{
-  margin-top: 100px;
+  background-color: #5c80bc;
+  margin-top: 300px;
   margin-left: 50px;
   margin-right: 50px;
+  color: white;
+
 }
 #bullets{
   list-style-type: circle;
+  text-align: left;
+  background-color: #5c80bc;
+  color: white;
 }
 
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  background-color: #5c80bc;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  color: white;
+}
+
+.resize{
+  width: auto;
+  height: 300px;
+}
+.slideshow{
+margin-top: 100px;
+margin-left: 300px;
+margin-right: 100px;
+text-align: center;
+}
+.slideshow {width:5px; height:300px;}
+.slideshow img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 60%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.slideshow img:nth-child(4){animation-delay:0s;}
+.slideshow img:nth-child(3){animation-delay:5s;}
+.slideshow img:nth-child(2){animation-delay:10s;}
+.slideshow img:nth-child(1){animation-delay:15s;}
+
+.slide{
+  object-fit: contain;
+  width: 500px;
+  height: 300px;
+}
 /*Signup Page*/
 
 #signup-body{
