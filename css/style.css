@@ -7,10 +7,10 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
+  float: none;
+  width: 75%;
+  left: 12.5%;
   position: relative;
-  left: 1%;
-  width: 32%;
   background-color: #150578;
   border: solid #5fb49c thick;
   height: 40px;
@@ -59,16 +59,15 @@ nav ul li a:hover {
 }
 
 #home-body div {
-  margin: 10% 10% 10% 0;
-  width: 20%;
-  float: left;
-  line-height: 2;
+  margin: 20% 10% 10% 0;
+  width: 50%;
+  float: none;
+  line-height: 1.5;
   color: white;
   background-color: #5c80bc;
   border: solid thick #5fb49c;
   border-radius: 20%;
   padding: 2.5%;
-
 }
 
 #home-body section {
@@ -99,28 +98,25 @@ nav ul li a:hover {
   font-size: 1.618em;
 }
 
-#aboutparagraph {
-  background-color: #5c80bc;
-  font-family: 'Signika', Helvetica, sans-serif;
+#about-body section{
   color: white;
-  font-size: 1em;
-
+  background-color: #5c80bc;
+  border: solid thick #5fb49c;
+  border-radius: 20%;
+  margin: auto auto 20% auto;
+  line-height: 2;
+  padding: 3%;
+  width: 90%;
 }
 
-#aboutparagraphsection {
-  background-color: #5c80bc;
-  margin-top: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: white;
-
+#about-body section p{
+  padding-bottom: 1em;
 }
 
-#bullets {
+#about-body section ul {
   list-style-type: circle;
-  text-align: left;
-  background-color: #5c80bc;
-  color: white;
+  text-align: center;
+  list-style-position: inside;
 }
 
 
@@ -135,37 +131,44 @@ nav ul li a:hover {
 }
 
 /* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
+
 
 .title {
   color: white;
 }
 
 .resize {
-  width: auto;
-  height: 300px;
+  width: 35%;
+  height: 35%;
 }
 
 .slideshow {
-  margin-top: 100px;
-  margin-left: 450px;
-  margin-right: 100px;
-  text-align: center;
+  margin: auto;
+  height: 75%;
+  width: 75%;
+  padding: 2em;
+  position: relative;
 }
 
-.slideshow {
-  width: 5px;
-  height: 300px;
-}
-
-.slideshow img {
-  position: absolute;
+.slide{
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
   animation: fling-minislide 20s infinite;
   opacity: 0;
-  width: 40%;
-  height: auto;
+  position: relative;
+}
+
+.slideAlt
+{
+  top: 30px;
+  left: 14%;
+  object-fit: contain;
+  width: inherit;
+  height: inherit;
+  animation: fling-minislide 20s infinite;
+  opacity: 0;
+  position: absolute;
 }
 
 @keyframes fling-minislide {
@@ -194,12 +197,6 @@ nav ul li a:hover {
   animation-delay: 15s;
 }
 
-.slide {
-  object-fit: contain;
-  width: 500px;
-  height: 300px;
-}
-
 /*Signup Page*/
 
 #signup-body {
@@ -217,7 +214,6 @@ nav ul li a:hover {
   font-size: 2.618em;
   position: relative;
   top: 20px;
-
 }
 
 #signup-body h3 {
@@ -235,7 +231,7 @@ nav ul li a:hover {
   margin: 10% auto 20% auto;
   line-height: 2;
   padding: 3%;
-  width: 50%;
+  width: 90%;
 }
 
 #signup-body input,
@@ -262,6 +258,8 @@ label {
 
 #signup-body .check {
   padding-top: .66em;
+  width: inherit;
+
 }
 
 #subbutton {
@@ -269,20 +267,19 @@ label {
   width: 65%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 699px) {
-
-
+@media screen and (min-width: 502px) {
   nav ul li {
-    float: none;
-    width: 75%;
-    left: 12.5%;
+    width: 30%;
+    left: 0%;
+    margin: auto;
+    display: inline-block;
   }
 
   #home-body div {
-    margin: 20% 10% 10% 0;
-    width: 50%;
-    float: none;
-    line-height: 1.5;
+    margin: 10% 10% 10% 0;
+    width: 20%;
+    float: left;
+    line-height: 2;
   }
 
   #signup-body input {
@@ -305,7 +302,9 @@ label {
   }
 
   #signup-body .checklabel {
-    width: 25em;
+    width: 90%;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   #subbutton {
@@ -315,7 +314,7 @@ label {
   }
 
   #wrapper {
-    width: 90%;
+    width: 60%;
   }
 }
 
@@ -327,12 +326,14 @@ label {
   }
 
   #wrapper {
-    width: 60%;
+    margin: auto auto auto auto;
+    padding: 3%;
   }
 
   #signup-body input,
   label {
     display: block;
   }
+
 
 }
