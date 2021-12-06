@@ -1,12 +1,12 @@
 /*Navigation*/
 
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0 0 0 0;
   padding: 0;
 }
 
-nav ul li{
+nav ul li {
   float: left;
   position: relative;
   left: 1%;
@@ -17,18 +17,18 @@ nav ul li{
   font-size: 2.168em;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
   display: block;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   background-color: #36453b;
   border-color: #5c80bc;
 }
 
-#onpage{
+#onpage {
   background-color: #36453b;
   border-color: #5c80bc;
 }
@@ -36,7 +36,7 @@ nav ul li a:hover{
 
 /*Home Page*/
 
-#home-body{
+#home-body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +46,7 @@ nav ul li a:hover{
   font-family: 'Signika', Helvetica, sans-serif;
 }
 
-#home-body h1{
+#home-body h1 {
   clear: both;
   font-size: 2.618em;
   position: relative;
@@ -54,31 +54,31 @@ nav ul li a:hover{
 
 }
 
-#home-body h2{
+#home-body h2 {
   font-size: 1.618em;
 }
 
-#home-body div{
+#home-body div {
   margin: 10% 10% 10% 0;
   width: 20%;
   float: left;
   line-height: 2;
   color: white;
   background-color: #5c80bc;
-  border: solid  thick #5fb49c;
+  border: solid thick #5fb49c;
   border-radius: 20%;
   padding: 2.5%;
 
 }
 
-#home-body section{
+#home-body section {
   position: relative;
   left: 20%;
 }
 
 /*About Page*/
 
-#about-body{
+#about-body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,23 +88,26 @@ nav ul li a:hover{
   font-family: 'Signika', Helvetica, sans-serif;
 }
 
-#about-body h1{
+#about-body h1 {
   clear: both;
   font-size: 2.618em;
   position: relative;
   top: 20px;
 }
-#about-body h2{
+
+#about-body h2 {
   font-size: 1.618em;
 }
-#aboutparagraph{
+
+#aboutparagraph {
   background-color: #5c80bc;
   font-family: 'Signika', Helvetica, sans-serif;
   color: white;
   font-size: 1em;
 
 }
-#aboutparagraphsection{
+
+#aboutparagraphsection {
   background-color: #5c80bc;
   margin-top: 150px;
   margin-left: 50px;
@@ -112,7 +115,8 @@ nav ul li a:hover{
   color: white;
 
 }
-#bullets{
+
+#bullets {
   list-style-type: circle;
   text-align: left;
   background-color: #5c80bc;
@@ -139,33 +143,66 @@ nav ul li a:hover{
   color: white;
 }
 
-.resize{
+.resize {
   width: auto;
   height: 300px;
 }
-.slideshow{
-margin-top: 100px;
-margin-left: 450px;
-margin-right: 100px;
-text-align: center;
+
+.slideshow {
+  margin-top: 100px;
+  margin-left: 450px;
+  margin-right: 100px;
+  text-align: center;
 }
-.slideshow {width:5px; height:300px;}
-.slideshow img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
 
-@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
-.slideshow img:nth-child(4){animation-delay:0s;}
-.slideshow img:nth-child(3){animation-delay:5s;}
-.slideshow img:nth-child(2){animation-delay:10s;}
-.slideshow img:nth-child(1){animation-delay:15s;}
+.slideshow {
+  width: 5px;
+  height: 300px;
+}
 
-.slide{
+.slideshow img {
+  position: absolute;
+  animation: fling-minislide 20s infinite;
+  opacity: 0;
+  width: 40%;
+  height: auto;
+}
+
+@keyframes fling-minislide {
+  25% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+}
+
+.slideshow img:nth-child(4) {
+  animation-delay: 0s;
+}
+
+.slideshow img:nth-child(3) {
+  animation-delay: 5s;
+}
+
+.slideshow img:nth-child(2) {
+  animation-delay: 10s;
+}
+
+.slideshow img:nth-child(1) {
+  animation-delay: 15s;
+}
+
+.slide {
   object-fit: contain;
   width: 500px;
   height: 300px;
 }
+
 /*Signup Page*/
 
-#signup-body{
+#signup-body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +212,7 @@ text-align: center;
   font-family: 'Signika', Helvetica, sans-serif;
 }
 
-#signup-body h1{
+#signup-body h1 {
   clear: both;
   font-size: 2.618em;
   position: relative;
@@ -183,17 +220,17 @@ text-align: center;
 
 }
 
-#signup-body h3{
+#signup-body h3 {
   font-size: 1.15em;
   text-align: center;
   padding: .5em;
   margin-top: 2em;
 }
 
-#wrapper{
+#wrapper {
   color: white;
   background-color: #5c80bc;
-  border: solid  thick #5fb49c;
+  border: solid thick #5fb49c;
   border-radius: 20%;
   margin: 10% auto 20% auto;
   line-height: 2;
@@ -201,82 +238,101 @@ text-align: center;
   width: 50%;
 }
 
-#signup-body input, label{
+#signup-body input,
+label {
   margin: auto;
   display: block;
-  width: 80%;
+  width: 90%;
 }
-#signup-body input{
+
+#signup-body input {
   padding: .5em;
 }
-#signup-body label{
+
+#signup-body label {
   padding: .5em;
 }
+
 #signup-body input[type='checkbox'] {
   float: left;
   width: 20px;
   margin-left: 8%;
   margin-top: .9em;
 }
-#signup-body .check{
+
+#signup-body .check {
   padding-top: .66em;
 }
-#subbutton{
+
+#subbutton {
   margin-top: 1em;
   width: 65%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 699px){
+@media screen and (min-width: 300px) and (max-width: 699px) {
 
 
-  nav ul li{
-	float: none;
-	width: 75%;
-	left: 12.5%;
+  nav ul li {
+    float: none;
+    width: 75%;
+    left: 12.5%;
   }
 
-  #home-body div{
-  margin: 20% 10% 10% 0;
-  width: 50%;
-  float: none;
-  line-height: 1.5;
-}
+  #home-body div {
+    margin: 20% 10% 10% 0;
+    width: 50%;
+    float: none;
+    line-height: 1.5;
+  }
 
-#signup-body input{
-  padding: 0.5em;
-  width: 75%;
-}
-#signup-body label{
-  width: 7em;
-  text-align: left;
-}
-#signup-body input, label{
-  display: block;
-}
-#signup-body .check{
-  padding-top: 1em;
-}
-#signup-body .checklabel{
-  width: 25em;
-}
-#subbutton{
-  padding: 0.5em;
-  width: 15em;
-  display: block;
-}
-#wrapper{
-  width: 25em;
-}
+  #signup-body input {
+    padding: 0.5em;
+    width: 90%;
+  }
+
+  #signup-body label {
+    width: 7em;
+    text-align: left;
+  }
+
+  #signup-body input,
+  label {
+    display: block;
+  }
+
+  #signup-body .check {
+    padding-top: 1em;
+  }
+
+  #signup-body .checklabel {
+    width: 25em;
+  }
+
+  #subbutton {
+    padding: 0.5em;
+    width: 15em;
+    display: block;
+  }
+
+  #wrapper {
+    width: 90%;
+  }
 }
 
 @media only screen and (min-width : 992px) {
 
   #signup-body input[type='checkbox'] {
-      margin-left: 3.1em;
-      margin-right: 1em;
+    margin-left: 3.1em;
+    margin-right: 1em;
   }
-  #wrapper{
-      width: 40em;
+
+  #wrapper {
+    width: 60%;
+  }
+
+  #signup-body input,
+  label {
+    display: block;
   }
 
 }
